@@ -1,3 +1,68 @@
+:root {
+	--black: #1d2021;
+	--darkGray: #928374;
+	--lightGray: #a89984;
+	--white: #ebdbb2;
+	--darkRed: #cc241d;
+	--darkPurple: #b16286;
+	--darkBlue: #458588;
+	--darkYellow: #d79921;
+	--darkGreen: #98971a;
+	--darkTeal: #689d6a;
+	--lightRed: #fb4934;
+	--lightPurple: #d3869b;
+	--lightBlue: #83a598;
+	--lightYellow: #fabd2f;
+	--lightGreen: #b8bb26;
+	--lightTeal: #8ec07c;
+}
+
+body {
+	background-color: #1d2021;
+	color: #ebdbb2;
+	justify-self: center;
+
+}
+
 h1 {
-	text-align: center;
+	color: #ebdbb2;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+h1,
+h2,
+h3 {
+	text-decoration: underline;
+}
+
+.center {
+	margin: 0px 250px;
+}
+
+p {
+	width: 300px;
+}
+
+a {
+	color: #458588;
+}
+
+.content {
+	width: 600px;
+	border: 5px solid #928374;
+	padding: 10px;
+	padding-left: 50px;
+	margin: 40px 80px;
+}
+
+.content,
+h2,
+h3 {
+	background-color: #ebdbb2;
+	color: #1d2021;
+	text-shadow: 0px #000000;
+}
+
+li {
+	margin: 15px;
 }
