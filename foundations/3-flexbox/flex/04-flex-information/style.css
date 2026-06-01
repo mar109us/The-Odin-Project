@@ -24,3 +24,21 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 52px;
+}
+
+.item {
+	width: 200px;
+	text-align: center;
+}
