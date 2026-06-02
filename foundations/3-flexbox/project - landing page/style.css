@@ -17,9 +17,20 @@ body {
 		sans-serif;
 }
 
+.header,
+.content,
+.box,
+.signup,
+.footer {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
 .header {
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
+	gap: 15px;
 
 	background-color: #1f2937;
 	color: white;
@@ -46,7 +57,8 @@ body {
 .align-right {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 ul {
@@ -54,4 +66,19 @@ ul {
 	margin: 0px;
 	text-decoration: none;
 	list-style: none;
+}
+
+.align-right ul {
+	display: flex;
+	gap: 20px;
+}
+
+.hero {
+}
+
+.hero video {
+	padding-left: 50px;
+	width: 300px;
+	object-fit: cover;
+	object-position: 0px -150px;
 }
