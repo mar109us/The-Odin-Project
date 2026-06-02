@@ -32,6 +32,9 @@ body {
 }
 
 .content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	flex-grow: 1;
 }
 
@@ -39,4 +42,9 @@ body {
 	border: 1px solid #eee;
 	box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
 	border-radius: 4px;
+	max-width: 300px;
+	min-height: 200px;
+	max-height: 300px;
+	padding: 10px;
+	margin: 15px;
 }
