@@ -22,15 +22,15 @@ body {
 .box,
 .signup,
 .footer {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 300px;
+	padding-right: 300px;
 }
 
 .header {
-	padding-top: 10px;
+	padding-top: 15px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 30px;
 
 	background-color: #1f2937;
 	color: white;
@@ -46,6 +46,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 30px;
 }
 
 .align-left {
@@ -66,6 +67,7 @@ ul {
 	margin: 0px;
 	text-decoration: none;
 	list-style: none;
+	color: rgb(221, 221, 221);
 }
 
 .align-right ul {
@@ -73,17 +75,71 @@ ul {
 	gap: 20px;
 }
 
-.hero {
-	margin-bottom: 15px;
-}
-
-.hero video {
-	margin-left: 50px;
-	width: 320px;
+/* .hero video { */
+	/* 	margin-left: 50px; */
+	/* 	width: 320px;
 	height: 350px;
+
 	object-fit: cover;
 	object-position: 0px -170px;
+	border: 5px solid #2e3a4d; */
+	/* 	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px; */
+/* } */
+
+.hero video {
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+	object-position: 0px -300px;
 	border: 5px solid #2e3a4d;
-	border-top-left-radius: 100px;
-	border-bottom-right-radius: 100px;
+}
+
+.text-divide {
+	display: flex;
+	align-items: flex-start;
+	height: 120px;
+}
+
+.text-divide p {
+	margin: 0px;
+}
+
+.large-text {
+	margin-top: -40px;
+	font-size: 8em;
+	font-weight: 900;
+	color: rgb(221, 221, 221);
+	/* text-shadow: 0px 4px 2px #80868f; */
+	text-shadow: 0px 5px 10px #000000;
+	text-decoration: underline;
+}
+
+.small-text {
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 3.3em;
+	font-weight: 900;
+	color: rgb(221, 221, 221);
+	text-shadow: 0px 5px 10px #000000;
+}
+
+.hero-paragraph {
+	width: 550px;
+}
+
+.hero-paragraph-text {
+	font-weight: 100;
+	color: rgb(221, 221, 221);
+}
+
+button {
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #0062ff;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-weight: 700;
 }
