@@ -1,8 +1,3 @@
-/* * {
-    outline: 2px dashed purple !important;
-    
-} */
-
 body {
 	margin: 0px;
 	display: flex;
@@ -24,7 +19,6 @@ body {
 .header,
 .content,
 .box,
-.signup,
 .footer {
 	padding-left: 18vw;
 	padding-right: 18vw;
@@ -76,7 +70,8 @@ body {
 
 	.text-divide {
 		display: flex;
-		align-items: flex-start;
+		flex-direction: column;
+		align-items: center;
 
 		gap: 1vw;
 		margin-top: 8vh;
@@ -96,6 +91,7 @@ body {
 			line-height: 1.2;
 			color: rgb(221, 221, 221);
 			text-shadow: 0px 0.25vw 0.5vw #000000;
+			margin-bottom: 4vh;
 		}
 	}
 }
@@ -138,8 +134,10 @@ ul {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	font-size: 1.2vw;
+	font-size: 1.2em;
 	width: 31vw;
+	text-align: left;
+	align-items: flex-start;
 }
 
 .hero-paragraph-text {
@@ -153,6 +151,8 @@ button {
 	padding: 1.5vh;
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
+	margin: 2em;
+	margin-left: 0px;
 	background-color: #0062ff;
 	color: white;
 	border: none;
@@ -226,9 +226,53 @@ button {
 		align-items: flex-end;
 
 		img {
-			height: 6em;
 			width: 6em;
+			height: 6em;
 			border: 0.7vw ridge rgb(255, 255, 255);
 		}
+	}
+}
+
+.signup {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: #0062ff;
+	background-image: linear-gradient(#6aa3ff -25%, #0062ff 50%, #0062ff 80%, #0051d3 125%);
+	color: white;
+	border-radius: 0.5em;
+
+	margin-left: 18vw;
+	margin-right: 18vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+
+	font-size: 1.1em;
+
+	.signup-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		padding: 0px;
+		margin: 0px;
+		line-height: 2.5vh;
+
+		b {
+			font-size: 1.3em;
+		}
+	}
+
+	button {
+		background-image: linear-gradient(135deg, #6aa3ff -25%, #0062ff 40%, #0062ff 60%, #003d9e 125%);
+		border: solid 0.15em white;
+		box-shadow: 0px 0px 1em white;
+		margin: 0px;
+		
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+
+
 	}
 }
